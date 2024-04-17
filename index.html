@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./master.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a href="/" class="logo">
+          <img src="/images/logo.svg" alt="notNotion">
+          <span>notNotion</span>
+        </a>
+        <nav>
+          <ul class="nav-items">
+            <li>
+              <a href="/quiz">Quiz</a>
+            </li>
+            <li>
+              <a href="/todoList">Todo List</a>
+            </li>
+            <li>
+              <a href="/kanban_app">Progress Board</a>
+            </li>
+            <li>
+              <a href="/budgetTracker">Budget Manager</a>
+            </li>
+            <span class="newsletter">Join Newsletter</span>
+          </ul>
+        </nav>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="homepage">
+        <div class="text-wrap">
+          <h1 class="title">The Ultimate Productivity Assistant</h1>
+          <h2 class="subtitle">Manage Tasks, Booksmarks, Write notes and Oganize Projects. notNotion is the Fstest Way
+            to Get Work Done.</h2>
+          <p><span class="newsletter">Join Newsletter</span></p>
+        </div>
+        <div class="visual-wrap">
+          <img src="/images/productive.svg" alt="notNotion">
+        </div>
+      </section>
+      <section class="carousel">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/budget-manager.png" alt="">
+              <p>Budget Manager</p>
+
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/kanban.png" alt="">
+              <p>Progress Board</p>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./images/todo-list.png" alt="">
+              <p>Todo List</p>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="./images/quiz.png" alt="">
+              <p>Quiz</p>
+            </div>
+          </div>
+
+          <!--<div class="swiper-pagination"></div>-->
+        </div>
+
+        <div class="swiper-button-wrapper">
+          <div class="swiper-prev">
+            <i class="bi bi-arrow-left"></i>
+          </div>
+          <div class="swiper-next">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="accordions">
+        <p class="faq">Frequently Asked Questions</p>
+        <div class="accordion">
+          <div class="title">Lorem ipsum dolor sit amet.</div>
+          <div class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, aliquid rerum ab quo
+            tempore ducimus ullam repellendus nam blanditiis! Minus repellendus quod nam tempore explicabo.</div>
+        </div>
+        <div class="accordion">
+          <div class="title">Lorem ipsum dolor sit amet.</div>
+          <div class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto voluptatibus quae
+            quis saepe, quod est accusamus odio laboriosam laudantium dolores?</div>
+        </div>
+      </section>
+
+      <section class="tagline">
+        <img src="./images/logo.svg" alt="notNotion logo">
+        <p class="main">Try notNotion today!</p>
+        <p class="sub">Plan, Organize, and Execute Your Projects.</p>
+        <span class="newsletter">Join Newsletter</span>
+
+      </section>
+
+      <section class="modal">
+        <div class="newsletter-modal">
+          <p>Join Newsletter Now!</p>
+          <form>
+            <input type="text" name="name" placeholder="Name" autocomplete="off">
+            <input type="email" name="email" autocomplete="off" placeholder="Email">
+            <input type="submit" value="Submit">
+          </form>
+          <i class="bi bi-x-lg close"></i>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="brand-name">
+          <span>&copy; notNotion by Moisés Parra</span>
+        </div>
+        <div class="social-icons">
+          <i class="bi bi-twitter social"></i>
+          <i class="bi bi-linkedin social"></i>
+          <i class="bi bi-youtube social"></i>
+          <i class="bi bi-instagram social"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
+<!--to find resources for logo: https://www.landingfolio.com/-->
+<!--for illustrations: https://www.drawkit.com/-->
+<!--for photos: https://unsplash.com/-->
